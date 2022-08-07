@@ -9,6 +9,7 @@
     "blocks.AbstractFluidBlockMixin",
     "blocks.BlockMixin",
     "blocks.CropBlockMixin",
+    "blocks.FarmlandBlockMixin",
     "blocks.FireBlockMixin",
     "blocks.FluidBlockMixin",
     "blocks.GlowstoneBlockMixin",
@@ -62,6 +63,7 @@
     "entities.WolfEntityMixin",
     "entities.ZombieEntityMixin",
     "entities.ZombiePigmanEntityMixin",
+
     "other.AnvilScreenHandlerMixin",
     "other.ExplosionMixin",
     "other.FishingBobberEntityMixin",
