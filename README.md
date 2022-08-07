@@ -27,6 +27,7 @@ Here is a list:
 - always tame pets as fast as possible
 - horses are always the best possible
 - buffed charge chance for ender dragon
+- ender dragon never heals
 - iron golems spawn as fast as possible
 - iron golems deal max damage to monsters and minimum to players
 - consistent velocity from projectiles
