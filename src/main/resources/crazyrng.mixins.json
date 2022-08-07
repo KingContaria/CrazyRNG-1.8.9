@@ -6,12 +6,6 @@
   "mixins": [
     "DebugHudMixin",
 
-    "other.AnvilScreenHandlerMixin",
-    "other.ExplosionMixin",
-    "other.FoodItemMixin",
-    "other.VillageMixin",
-    "other.WeightedRandomFishingLootMixin",
-
     "blocks.AbstractFluidBlockMixin",
     "blocks.BlockMixin",
     "blocks.CropBlockMixin",
@@ -27,9 +21,11 @@
     "blocks.OreBlockMixin",
     "blocks.PotatoesBlockMixin",
     "blocks.RedstoneOreBlockMixin",
+    "blocks.SaplingBlockMixin",
     "blocks.SpawnerBlockEntityBehaviourMixin",
 
     "enchants.EnchantmentHelperMixin",
+    "enchants.ThornsEnchantmentMixin",
     "enchants.UnbreakingEnchantmentMixin",
 
     "entities.AbstractArrowEntityMixin",
@@ -58,15 +54,22 @@
     "entities.SpiderEntityMixin",
     "entities.SquidEntityMixin",
     "entities.ThrowableEntityMixin",
-    "entities.TntEntityMixin",
-    "entities.TntMinecartEntityMixin",
-    "entities.VillagerEntityMixin",
+    "entities.VillageMixin",
     "entities.VillagerEntityCostMixin",
+    "entities.VillagerEntityMixin",
     "entities.WaterCreatureEntityMixin",
     "entities.WitherEntityMixin",
     "entities.WolfEntityMixin",
     "entities.ZombieEntityMixin",
-    "entities.ZombiePigmanEntityMixin"
+    "entities.ZombiePigmanEntityMixin",
+    "other.AnvilScreenHandlerMixin",
+    "other.ExplosionMixin",
+    "other.FishingBobberEntityMixin",
+    "other.FoodItemMixin",
+    "other.NetherPortalBlockMixin",
+    "other.TntEntityMixin",
+    "other.TntMinecartEntityMixin",
+    "other.WeightedRandomFishingLootMixin"
   ],
   "injectors": {
     "defaultRequire": 1
